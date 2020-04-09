@@ -10,7 +10,6 @@ else:
 def get_meshvertices(mesh):
     '''
     return mesh verteices as an numpy array
-
     '''
     v = mfem.Vector()
     mesh.GetVertices(v)
