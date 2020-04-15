@@ -1,1 +1,19 @@
 Utility for PyMFEM
+
+Assorted scripts to use PyMFEM mfem python wrapper.
+
+mfem_util.mesh.
+   element:
+        get_element_sizes: read all element sizes
+	get_element_loc: return center coordinates of i-th mesh element
+   edge:
+        get_edge_vertex_indices: read vertices index for edges
+        get_edge_length: collect length of element edges
+	find_smalledge_loc: find the location of small length edges
+   vertex:
+        get_meshvertices : read vertices from mesh file
+
+mfem_util.postprocess.
+   gf:
+       griddata_from_scalar_gf : extract griddata from scalar gridfunction
+    
